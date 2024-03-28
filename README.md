@@ -54,17 +54,16 @@
     업데이트 하는데, 수정하고 싶은 요소만 수정시키기 위해 수정(업데이트)하려는 값 이외의
     다른 값들은 (null인 경우) 해당 값들을 업데이트 하지 않음
 
----
-확인사항
+## 확인사항
 
-PETMEMOIR 프론트엔드(https://github.com/PANG2OPPA/PETMEMOIR_Frontend)
+- PETMEMOIR 프론트엔드 (https://github.com/PANG2OPPA/PETMEMOIR_Frontend)
 
-PETMEMOIR 백엔드(https://github.com/PANG2OPPA/PETMEMOIR_Backend)
+- PETMEMOIR 백엔드 (https://github.com/PANG2OPPA/PETMEMOIR_Backend)
 
-PETMEMOIR 플라스크(https://github.com/PANG2OPPA/PETMEMOIR_Flask)
+- PETMEMOIR 플라스크 (https://github.com/PANG2OPPA/PETMEMOIR_Flask)
 
-PETMEMOIR 통합(https://github.com/PANG2OPPA/PETMEMOIR_Totals)
+- PETMEMOIR 통합 (https://github.com/PANG2OPPA/PETMEMOIR_Totals)
 
-PETMEMOIR 모바일(https://github.com/PANG2OPPA/PETMEMOIR_Expo_Mobile)
+- PETMEMOIR 모바일 (https://github.com/PANG2OPPA/PETMEMOIR_Expo_Mobile)
 
 인사담당관님의 피드백을 환영합니다!
