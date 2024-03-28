@@ -4,16 +4,16 @@
 ---
 ## 김현빈 담당 기능 요약 ##
 
-1. Axios 인스턴스 및 JWT토큰 관리
-  - 토큰 시간 설정, access토큰 1시간, refresh토큰 1일로 설정 
-  - 로그인시, access토큰 refresh토큰 발급확인 및 토큰 payload의 정보
-    (id & email) return 하는 Axios 생성  
-  - Axios 인스턴스를 활용하여 401에러시 refresh토큰으로 access토큰
-    자동으로 생성 기능 구현
-  - Spring Security를 보안필터중 SecurityFilterChain 사용하여 특정
-    URL 경로 또는 요청 권한 부여
-  - private layout 새하얀 더미 페이지를 만들어 useEffect를 통해 회원
-    상태 아닐시 바로 로그인 페이지로 이동
+1. JWT 인증방식 / JWT토큰 관리
+  - access 토큰은 1시간, refresh 토큰은 1일로 설정
+  - 로그인 시, access 토큰과 refresh 토큰을 발급하고, 토큰의
+    payload에 있는 정보 (id 및 email)를 반환하는 Axios 생성
+  - Axios 인스턴스를 사용하여 401 에러 발생 시 refresh 토큰을 사용하여
+    access 토큰을 자동으로 갱신하는 기능 구현
+  - Spring Security의 보안 필터 중 SecurityFilterChain을 사용하여
+    특정 URL 경로 또는 요청에 대한 권한을 부여
+  - private layout에서는 회원 상태를 확인하여 로그인 페이지로 이동하는
+    더미 페이지를 생성하고, useEffect를 통해 상태를 확인하여 이동
 
 2. 로그인 페이지
   - 일반 회원 / 카카오 로그인 기능 구현
